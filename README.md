@@ -8,9 +8,13 @@
 🔥 SilentOps Framework
 
 Author: Rakan Khaled
+
 Platform: Kali Linux
+
 Category: Offensive Security / Penetration Testing
+
 Language: Bash
+
 
 📌 Overview
 

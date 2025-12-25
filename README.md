@@ -90,7 +90,7 @@ All offline cracking modules rely on a unified password database.
 
 Based on RockYou
 
-Total passwords: 14,341,564
+Total passwords for each pdf & zip & hash wordlist : 2904739
 
 Used consistently across:
 
@@ -238,7 +238,6 @@ Academic security projects
 
 Offline cracking efficiency depends on wordlist quality
 
-RockYou remains an industry baseline
 
 SilentOps allows controlled, transparent testing
 

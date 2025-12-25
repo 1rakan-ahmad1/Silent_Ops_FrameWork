@@ -146,14 +146,15 @@ dig
 
 Install missing tools:
 
-bash
+
 Copy code
+
 sudo apt update && sudo apt install nmap theharvester gobuster hydra patator john dnsutils -y
 5️⃣ Wordlists Setup
+
 Default wordlists are stored in:
 
-bash
-Copy code
+
 /home/kali/Silent_Ops_FrameWork/
 This directory includes:
 
@@ -166,10 +167,12 @@ PDF / ZIP / HASH wordlists
 Web path lists
 
 6️⃣ Run the Framework
-bash
+
 Copy code
 sudo bash silentops.sh
+
 📝 Logging & Output
+
 Optional result saving
 
 Timestamped output files

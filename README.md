@@ -116,18 +116,27 @@ SilentOps Framework runs natively on Kali Linux with minimal setup.
 
 1️⃣ Clone or Place the Framework
 cd /home/kali/
+
+
 git clone https://github.com/rakan-khaled1/Silent_Ops_FrameWork.git
+
 
 
 Or ensure the folder exists:
 
+
 /home/kali/Silent_Ops_FrameWork
 
+
 2️⃣ Navigate to the Directory
+
 cd /home/kali/Silent_Ops_FrameWork
 
 3️⃣ Set Execution Permissions
+
 chmod +x silentops.sh
+
+
 chmod +x ui_engine.sh
 
 

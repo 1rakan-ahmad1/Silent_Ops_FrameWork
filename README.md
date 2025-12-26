@@ -105,7 +105,6 @@ SilentOps Framework runs natively on **Kali Linux** with minimal setup.
 
 ### 1️⃣ Clone the Framework
 
-```bash
 cd /home/kali/
 git clone https://github.com/rakan-khaled1/Silent_Ops_FrameWork.git
 Or ensure the directory exists:
@@ -118,12 +117,12 @@ bash
 Copy code
 cd /home/kali/Silent_Ops_FrameWork
 3️⃣ Set Execution Permissions
-bash
+
 Copy code
 chmod +x silentops.sh
 chmod +x ui_engine.sh
 4️⃣ Install Required Tools
-bash
+
 Copy code
 sudo apt update && sudo apt install \
 nmap theharvester gobuster hydra patator john dnsutils -y

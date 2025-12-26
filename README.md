@@ -165,19 +165,33 @@ text
 Copy code
 Silent_Ops_FrameWork/
 │
+
 ├── silentops.sh
+
 ├── ui_engine.sh
+
 ├── README.md
+
 │
+
 └── /home/kali/Silent_Ops_FrameWork/
+
     ├── ftp_usernames_list.txt
+    
     ├── ftp_passwords_list.txt
+    
     ├── ssh_usernames_list.txt
+    
     ├── ssh_passwords_list.txt
+    
     ├── pdf_passwords_wordlist.txt
+    
     ├── zip_passwords_wordlist.txt
+    
     ├── hash_wordlist.txt
+    
     └── paths.txt
+    
 🎯 Design Philosophy
 SilentOps was developed with a focus on:
 

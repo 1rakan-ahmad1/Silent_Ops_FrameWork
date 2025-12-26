@@ -17,7 +17,7 @@
 
 **SilentOps Framework** is a modular, terminal-based offensive security framework built for **educational purposes and authorized penetration testing**.
 
-The framework unifies **server reconnaissance**, **online brute-force attacks**, and **offline password cracking** into a single interactive menu-driven environment, following realistic penetration testing workflows.
+The framework unifies **server reconnaissance**, **online brute-force attacks**, and **offline password cracking** into a single interactive, menu-driven environment that follows realistic penetration testing workflows.
 
 SilentOps is designed to be:
 
@@ -88,11 +88,12 @@ All offline cracking modules rely on a **unified password database**.
   - Hash cracking
 
 This ensures:
+
 - Consistent attack strength  
 - Predictable cracking behavior  
 - Standardized testing results  
 
-📌 Users may supply **custom wordlists** at runtime.
+📌 Users may also supply **custom wordlists** at runtime.
 
 ---
 
@@ -102,40 +103,37 @@ SilentOps Framework runs natively on **Kali Linux** with minimal setup.
 
 ---
 
-### 1️⃣ Clone or Place the Framework
+### 1️⃣ Clone the Framework
 
-
+```bash
 cd /home/kali/
 git clone https://github.com/rakan-khaled1/Silent_Ops_FrameWork.git
-Or ensure the folder exists:
+Or ensure the directory exists:
 
-
-
+text
+Copy code
 /home/kali/Silent_Ops_FrameWork
 2️⃣ Navigate to the Directory
-
+bash
+Copy code
 cd /home/kali/Silent_Ops_FrameWork
 3️⃣ Set Execution Permissions
-
+bash
+Copy code
 chmod +x silentops.sh
 chmod +x ui_engine.sh
-(Adjust filenames if needed.)
-
-
-
-
-
-
- 
-
-sudo apt update && sudo apt install nmap theharvester gobuster hydra patator john dnsutils -y
-4️⃣ Wordlists Setup
-
+4️⃣ Install Required Tools
+bash
+Copy code
+sudo apt update && sudo apt install \
+nmap theharvester gobuster hydra patator john dnsutils -y
+5️⃣ Wordlists Setup
 Default wordlists are stored in:
 
-
+text
+Copy code
 /home/kali/Silent_Ops_FrameWork/
-This directory includes:
+Includes:
 
 FTP usernames & passwords
 
@@ -145,13 +143,11 @@ PDF / ZIP / HASH wordlists
 
 Web path lists
 
-5️⃣ Run the Framework
-
+6️⃣ Run the Framework
+bash
 Copy code
 sudo bash silentops.sh
-
 📝 Logging & Output
-
 Optional result saving
 
 Timestamped output files
@@ -165,33 +161,19 @@ text
 Copy code
 Silent_Ops_FrameWork/
 │
-
 ├── silentops.sh
-
 ├── ui_engine.sh
-
 ├── README.md
-
 │
-
 └── /home/kali/Silent_Ops_FrameWork/
-
     ├── ftp_usernames_list.txt
-    
     ├── ftp_passwords_list.txt
-    
     ├── ssh_usernames_list.txt
-    
     ├── ssh_passwords_list.txt
-    
     ├── pdf_passwords_wordlist.txt
-    
     ├── zip_passwords_wordlist.txt
-    
     ├── hash_wordlist.txt
-    
     └── paths.txt
-    
 🎯 Design Philosophy
 SilentOps was developed with a focus on:
 

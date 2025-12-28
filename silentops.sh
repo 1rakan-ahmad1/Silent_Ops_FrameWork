@@ -136,7 +136,7 @@ fi
 #---------OPTION6-------------------------
 if [ "$UINPUT2" = "6" ];
 	then
-read -p "Inser The Target IP/Domain : " TARGETIP6
+read -p "Insert The Target IP/Domain : " TARGETIP6
 	if [ -n "$TARGETIP6" ];
 then
 	echo "[+] Enumerating...."
@@ -153,7 +153,7 @@ fi
 #-----OPTION7-----------------------------
 if [ "$UINPUT2" = "7"  ];
 	then
-read -p "Inser The Target IP/Domain : " TARGETIP7
+read -p "Insert The Target IP/Domain : " TARGETIP7
 	if [ -n "$TARGETIP7" ];
 then
 	echo "[+] Enumerating...."

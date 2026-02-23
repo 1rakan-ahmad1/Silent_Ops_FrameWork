@@ -2,7 +2,7 @@
 # =========================================================
 # GLOBAL PROFESSIONAL CLI UI ENGINE
 # Level : Red Team / Enterprise Tooling
-# Author: Rakan Khaled
+# Author: Rakan Ahmad
 # =========================================================
 
 # ---------------- COLORS ----------------

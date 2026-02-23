@@ -5,7 +5,7 @@ clear
 echo "=============================="
 echo "        MAIN MENU"
 echo "=============================="
-echo "Author   : Rakan Khaled"
+echo "Author   : Rakan Ahmad"
 echo "Tool     : SilentOps FrameWork "
 echo "Purpose  : Educational / Authorized Testing Only"
 echo "                                                         "

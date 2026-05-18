@@ -91,7 +91,7 @@ SilentOps runs natively on any up-to-date Kali Linux instance.
 Ensure you clone it directly to your home path or verified working directory:
 ```bash
 cd /home/kali/
-git clone [https://github.com/1rakan-ahmad1/Silent_Ops_FrameWork.git](https://github.com/1rakan-ahmad1/Silent_Ops_FrameWork.git)
+git clone https://github.com/1rakan-ahmad1/Silent_Ops_FrameWork.git
 2. Navigate & Set Permissions
 Bash
 cd /home/kali/Silent_Ops_FrameWork

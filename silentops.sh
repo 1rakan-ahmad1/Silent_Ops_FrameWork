@@ -11,7 +11,7 @@ echo "Purpose  : Educational / Authorized Testing Only"
 echo "                                                         "
 echo "1) Reconnaissance & Enumeration "                                                
 echo "2) Offline Attack & Online Attack "   
-echo "3) CRAFT a PAYLOADS "
+echo "3) Create a PAYLOADS "
 echo "4) Create your HANDLER (LISTENER)  "                        	    
 read  -p "Choose The Section You Want To Use : " USERINPUT1
 	if [ -z "$USERINPUT1" ];

@@ -13,7 +13,7 @@
 
 An interactive, menu-driven Offensive Security framework designed to unify reconnaissance, payload generation, exploitation handlers, and password-cracking workflows natively inside Kali Linux.
 
-**Author:** Rakan Khaled  
+**Author:** Rakan Ahmad 
 **Platform:** Kali Linux  
 **Category:** Offensive Security / Penetration Testing  
 **Language:** Bash Scripting  
